@@ -1,6 +1,9 @@
 :root {
+    --mitel-dark-blue: #15325f;
+    --mitel-mid-blue: #0073d0;
+    --mitel-yellow: #fdb714;
     --mitel-blue: #003b71;
-    --mitel-purple: #6f2c91;
+    --mitel-purple: #812cc4;
     --light-bg: #f5f7fa;
     --text-color: #333;
 }
@@ -20,7 +23,7 @@ body.home-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, var(--mitel-blue), var(--mitel-purple));
+    background: linear-gradient(135deg, var(--mitel-dark-blue), var(--mitel-mid-blue));
 }
 
 body.hotel-page {
@@ -40,7 +43,7 @@ body.hotel-page {
 }
 
 .home-page h1 {
-    color: var(--mitel-blue);
+    color: var(--mitel-dark-blue);
     margin-bottom: 15px;
 }
 
@@ -52,7 +55,7 @@ body.hotel-page {
 .home-page .demo-button {
     display: inline-block;
     padding: 18px 36px;
-    background: var(--mitel-purple);
+    background: var(--mitel-mid-blue);
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -74,9 +77,9 @@ body.hotel-page {
 }
 
 .lang-btn {
-    border: 1px solid var(--mitel-blue);
+    border: 1px solid var(--mitel-dark-blue);
     background: #f3f7fb;
-    color: var(--mitel-blue);
+    color: var(--mitel-dark-blue);
     padding: 8px 14px;
     border-radius: 999px;
     cursor: pointer;
@@ -90,7 +93,7 @@ body.hotel-page {
 }
 
 .lang-btn.active {
-    background: var(--mitel-blue);
+    background: var(--mitel-dark-blue);
     color: white;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
@@ -102,7 +105,7 @@ body.hotel-page {
 }
 
 .hotel-page header {
-    background: linear-gradient(90deg, var(--mitel-blue), var(--mitel-purple));
+    background: linear-gradient(90deg, var(--mitel-dark-blue), var(--mitel-mid-blue));
     color: white;
     padding: 20px 60px;
     display: flex;
@@ -145,7 +148,7 @@ body.hotel-page {
 }
 
 .hotel-page .btn {
-    background: var(--mitel-purple);
+    background: var(--mitel-mid-blue);
     color: white;
     padding: 15px 30px;
     border: none;
@@ -163,7 +166,7 @@ body.hotel-page {
 .hotel-page .section-title {
     text-align: center;
     font-size: 40px;
-    color: var(--mitel-blue);
+    color: var(--mitel-dark-blue);
     margin-bottom: 50px;
 }
 
@@ -191,7 +194,7 @@ body.hotel-page {
 }
 
 .hotel-page .card-content h3 {
-    color: var(--mitel-blue);
+    color: var(--mitel-dark-blue);
     margin-bottom: 10px;
 }
 
@@ -209,12 +212,12 @@ body.hotel-page {
 }
 
 .hotel-page .service h3 {
-    color: var(--mitel-purple);
+    color: var(--mitel-mid-blue);
     margin-bottom: 10px;
 }
 
 .hotel-page .cta {
-    background: linear-gradient(90deg, var(--mitel-blue), var(--mitel-purple));
+    background: linear-gradient(90deg, var(--mitel-dark-blue), var(--mitel-mid-blue));
     color: white;
     text-align: center;
     padding: 80px 30px;
