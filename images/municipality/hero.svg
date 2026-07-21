@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f4f9ff"/>
+  <rect x="0" y="540" width="1200" height="260" fill="#dceffb"/>
+  <rect x="180" y="240" width="320" height="260" rx="24" fill="#15325f"/>
+  <rect x="220" y="280" width="240" height="180" rx="16" fill="#ffffff" opacity="0.95"/>
+  <rect x="260" y="320" width="80" height="60" rx="10" fill="#0073d0"/>
+  <rect x="360" y="320" width="70" height="60" rx="10" fill="#fdb714"/>
+  <circle cx="720" cy="340" r="120" fill="#0073d0"/>
+  <path d="M680 330 L720 290 L760 330 L760 390 L680 390 Z" fill="#ffffff"/>
+  <rect x="690" y="390" width="60" height="70" rx="8" fill="#15325f"/>
+  <path d="M900 300 C930 240 1000 220 1040 270 C1070 310 1060 380 1000 410 C940 440 860 410 900 300 Z" fill="#15325f"/>
+  <circle cx="970" cy="320" r="46" fill="#fdb714"/>
+  <text x="560" y="650" font-size="48" font-family="Segoe UI, Arial, sans-serif" fill="#15325f" font-weight="700">Ayuntamiento Digital</text>
+</svg>

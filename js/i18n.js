@@ -4,7 +4,8 @@ const translations = {
       pageTitle: 'Portal de Demos Mitel',
       title: 'Portal de Demos Mitel',
       subtitle: 'Selecciona una demostración para acceder al escenario correspondiente.',
-      cta: '🏨 Demo Hotel Mitel'
+      cta: 'Demo Hotel Mitel',
+      ctaMunicipality: 'Demo Ayuntamiento Mitel'
     },
     hotel: {
       pageTitle: 'Hotel Mitel',
@@ -36,6 +37,37 @@ const translations = {
       ctaText: 'Nuestro asistente virtual está disponible 24x7 para resolver cualquier consulta.',
       ctaButton: 'Contactar',
       footer: '© 2026 Hotel Mitel · España'
+    },
+    municipality: {
+      pageTitle: 'Ayuntamientos Mitel',
+      logo: 'Ayuntamiento Digital',
+      location: 'Madrid · España',
+      heroTitle: 'Transforma la experiencia ciudadana',
+      heroText: 'Servicios ágiles, atención inteligente y comunicación omnicanal para ayuntamientos.',
+      heroButton: 'Solicitar demo',
+      servicesTitle: 'Servicios clave',
+      service1Title: 'Atención ciudadana 24/7',
+      service1Text: 'Responde consultas, gestiona trámites y ofrece información en tiempo real.',
+      service1Alt: 'Atención ciudadana',
+      service2Title: 'Gestión de incidencias',
+      service2Text: 'Centraliza peticiones, prioriza urgencias y mejora la respuesta municipal.',
+      service2Alt: 'Gestión de incidencias',
+      service3Title: 'Canales digitales',
+      service3Text: 'Web, WhatsApp y voz para una comunicación sencilla y accesible.',
+      service3Alt: 'Canales digitales',
+      benefitsTitle: 'Beneficios',
+      benefit1Title: '⚡ Respuesta rápida',
+      benefit1Text: 'Automatiza tareas repetitivas y acelera la atención.',
+      benefit2Title: '📊 Visión operativa',
+      benefit2Text: 'Obtén métricas claras para mejorar los servicios públicos.',
+      benefit3Title: '🤝 Mayor satisfacción',
+      benefit3Text: 'Ofrece una experiencia integral para vecinos y visitantes.',
+      benefit4Title: '🔒 Seguridad y confianza',
+      benefit4Text: 'Protege los datos con flujos seguros y trazables.',
+      ctaTitle: 'Impulsa la digitalización municipal',
+      ctaText: 'Nuestro asistente virtual ayuda a ciudadanos y funcionarios con respuestas rápidas y personalizadas.',
+      ctaButton: 'Contactar con expertos',
+      footer: '© 2026 Ayuntamiento Digital · Madrid · España'
     }
   },
   en: {
@@ -43,7 +75,8 @@ const translations = {
       pageTitle: 'Mitel Demo Portal',
       title: 'Mitel Demo Portal',
       subtitle: 'Select a demo to access the corresponding scenario.',
-      cta: '🏨 Mitel Hotel Demo'
+      cta: 'Mitel Hotel Demo',
+      ctaMunicipality: 'Municipalities Demo'
     },
     hotel: {
       pageTitle: 'Mitel Hotel',
@@ -75,6 +108,37 @@ const translations = {
       ctaText: 'Our virtual assistant is available 24x7 to answer any questions.',
       ctaButton: 'Contact us',
       footer: '© 2026 Mitel Hotel · United Kingdom'
+    },
+    municipality: {
+      pageTitle: 'Mitel Municipalities',
+      logo: 'Digital Municipality',
+      location: 'London · United Kingdom',
+      heroTitle: 'Transform the citizen experience',
+      heroText: 'Agile services, smart support and omnichannel communication for municipalities.',
+      heroButton: 'Request a demo',
+      servicesTitle: 'Key services',
+      service1Title: '24/7 citizen support',
+      service1Text: 'Answer questions, manage requests and provide information in real time.',
+      service1Alt: 'Citizen support',
+      service2Title: 'Incident management',
+      service2Text: 'Centralize requests, prioritize emergencies and improve municipal response.',
+      service2Alt: 'Incident management',
+      service3Title: 'Digital channels',
+      service3Text: 'Web, WhatsApp and voice for simple and accessible communication.',
+      service3Alt: 'Digital channels',
+      benefitsTitle: 'Benefits',
+      benefit1Title: '⚡ Fast response',
+      benefit1Text: 'Automate repetitive tasks and speed up service.',
+      benefit2Title: '📊 Operational visibility',
+      benefit2Text: 'Get clear metrics to improve public services.',
+      benefit3Title: '🤝 Higher satisfaction',
+      benefit3Text: 'Deliver a seamless experience for residents and visitors.',
+      benefit4Title: '🔒 Security and trust',
+      benefit4Text: 'Protect data with secure and traceable workflows.',
+      ctaTitle: 'Drive municipal digitization',
+      ctaText: 'Our virtual assistant helps citizens and staff with fast, personalized responses.',
+      ctaButton: 'Contact experts',
+      footer: '© 2026 Digital Municipality · London · United Kingdom'
     }
   },
   pt: {
@@ -82,7 +146,8 @@ const translations = {
       pageTitle: 'Portal de Demonstrações Mitel',
       title: 'Portal de Demonstrações Mitel',
       subtitle: 'Selecione uma demonstração para aceder ao cenário correspondente.',
-      cta: '🏨 Demo de Hotel Mitel'
+      cta: 'Demo de Hotel Mitel',
+      ctaMunicipality: 'Demo de Cidades'
     },
     hotel: {
       pageTitle: 'Hotel Mitel',
@@ -114,6 +179,37 @@ const translations = {
       ctaText: 'O nosso assistente virtual está disponível 24x7 para responder a qualquer pergunta.',
       ctaButton: 'Contactar',
       footer: '© 2026 Hotel Mitel · Portugal'
+    },
+    municipality: {
+      pageTitle: 'Municípios Mitel',
+      logo: 'Município Digital',
+      location: 'Lisboa · Portugal',
+      heroTitle: 'Transforme a experiência dos cidadãos',
+      heroText: 'Serviços ágeis, apoio inteligente e comunicação omnicanal para municípios.',
+      heroButton: 'Solicitar demonstração',
+      servicesTitle: 'Serviços principais',
+      service1Title: 'Apoio ao cidadão 24/7',
+      service1Text: 'Responde a perguntas, gere pedidos e fornece informação em tempo real.',
+      service1Alt: 'Apoio ao cidadão',
+      service2Title: 'Gestão de incidentes',
+      service2Text: 'Centralize pedidos, priorize emergências e melhore a resposta municipal.',
+      service2Alt: 'Gestão de incidentes',
+      service3Title: 'Canais digitais',
+      service3Text: 'Web, WhatsApp e voz para uma comunicação simples e acessível.',
+      service3Alt: 'Canais digitais',
+      benefitsTitle: 'Benefícios',
+      benefit1Title: '⚡ Resposta rápida',
+      benefit1Text: 'Automatize tarefas repetitivas e acelere a atenção.',
+      benefit2Title: '📊 Visão operacional',
+      benefit2Text: 'Obtenha métricas claras para melhorar os serviços públicos.',
+      benefit3Title: '🤝 Maior satisfação',
+      benefit3Text: 'Ofereça uma experiência integral para residentes e visitantes.',
+      benefit4Title: '🔒 Segurança e confiança',
+      benefit4Text: 'Proteja os dados com fluxos seguros e rastreáveis.',
+      ctaTitle: 'Impulsione a digitalização municipal',
+      ctaText: 'O nosso assistente virtual ajuda cidadãos e funcionários com respostas rápidas e personalizadas.',
+      ctaButton: 'Contactar especialistas',
+      footer: '© 2026 Município Digital · Lisboa · Portugal'
     }
   }
 };

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuntamientos Mitel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-page="municipality">
+
+    <header>
+        <div class="logo" data-i18n="logo">Ayuntamiento Digital</div>
+        <div data-i18n="location">Madrid · España</div>
+    </header>
+
+    <section class="hero" style="background-image: url('images/municipality/hero.svg');">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 data-i18n="heroTitle">Transforma la experiencia ciudadana</h1>
+                <p data-i18n="heroText">Servicios ágiles, atención inteligente y comunicación omnicanal para ayuntamientos.</p>
+                <a href="#" class="btn" data-i18n="heroButton">Solicitar demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title" data-i18n="servicesTitle">Servicios clave</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="images/municipality/service-citizen.svg" alt="Atención ciudadana" data-i18n="service1Alt">
+                <div class="card-content">
+                    <h3 data-i18n="service1Title">Atención ciudadana 24/7</h3>
+                    <p data-i18n="service1Text">
+                        Responde consultas, gestiona trámites y ofrece información en tiempo real.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/municipality/service-incidents.svg" alt="Gestión de incidencias" data-i18n="service2Alt">
+                <div class="card-content">
+                    <h3 data-i18n="service2Title">Gestión de incidencias</h3>
+                    <p data-i18n="service2Text">
+                        Centraliza peticiones, prioriza urgencias y mejora la respuesta municipal.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/municipality/service-channels.svg" alt="Canales digitales" data-i18n="service3Alt">
+                <div class="card-content">
+                    <h3 data-i18n="service3Title">Canales digitales</h3>
+                    <p data-i18n="service3Text">
+                        Web, WhatsApp y voz para una comunicación sencilla y accesible.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title" data-i18n="benefitsTitle">Beneficios</h2>
+
+        <div class="services">
+            <div class="service">
+                <h3 data-i18n="benefit1Title">⚡ Respuesta rápida</h3>
+                <p data-i18n="benefit1Text">Automatiza tareas repetitivas y acelera la atención.</p>
+            </div>
+
+            <div class="service">
+                <h3 data-i18n="benefit2Title">📊 Visión operativa</h3>
+                <p data-i18n="benefit2Text">Obtén métricas claras para mejorar los servicios públicos.</p>
+            </div>
+
+            <div class="service">
+                <h3 data-i18n="benefit3Title">🤝 Mayor satisfacción</h3>
+                <p data-i18n="benefit3Text">Ofrece una experiencia integral para vecinos y visitantes.</p>
+            </div>
+
+            <div class="service">
+                <h3 data-i18n="benefit4Title">🔒 Seguridad y confianza</h3>
+                <p data-i18n="benefit4Text">Protege los datos con flujos seguros y trazables.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2 data-i18n="ctaTitle">Impulsa la digitalización municipal</h2>
+        <p data-i18n="ctaText">Nuestro asistente virtual ayuda a ciudadanos y funcionarios con respuestas rápidas y personalizadas.</p>
+        <br>
+        <a href="#" class="btn" data-i18n="ctaButton">Contactar con expertos</a>
+    </section>
+
+    <footer data-i18n="footer">© 2026 Ayuntamiento Digital · Madrid · España</footer>
+
+    <script>
+        import(`https://eu.engage.app/api/ecs/v1/loader/fc1d13b3-a8ac-4f45-9d56-4a5da90d6025.js?path=${encodeURIComponent(window.location.toString())}&selectedVersion=${(new URLSearchParams(window.location.search)).get('ecsSelectedVersion') || ''}`)
+    </script>
+    <script src="js/i18n.js"></script>
+
+</body>
+
+</html>
